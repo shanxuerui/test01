@@ -5,17 +5,6 @@
  */
 public class Test01 {
     public static void main(String[] args) {
-        System.out.println("000");
-        System.out.println(111);
-        System.out.println(222);
-        System.out.println(33);
-        System.out.println(555);
-        System.out.println(555);
-        System.out.println(02);
-        System.out.println(999);
-        System.out.println(101010);
-        System.out.println(444444);
-        System.out.println(3);
-        System.out.println(7);
+       
     }
 }
