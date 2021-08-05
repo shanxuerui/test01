@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--如果表单中拥有文件域那么表单的method必须是post enctype属性 必须multipart/form-data 表示允许表单提交二进制数据 -->
+
+<form th:action="@{|/uploadTest|}"  method="post" enctype="multipart/form-data">
+
+
+    <input type="file" name="file"><br>
+    <input type="submit" value="提交">
+</form>
+
+
+</body>
+</html>
