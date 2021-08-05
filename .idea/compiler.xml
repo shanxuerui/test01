@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="asyncTest" />
+        <module name="demo" />
+        <module name="download" />
+        <module name="exceltest" />
+        <module name="lock" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="17-fastdfs-web" target="1.8" />
+      <module name="asyncTest" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="download" target="1.8" />
+      <module name="exceltest" target="1.8" />
+      <module name="lock" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="17-fastdfs-web" options="-parameters" />
+      <module name="asyncTest" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="download" options="-parameters" />
+      <module name="exceltest" options="-parameters" />
+      <module name="lock" options="-parameters" />
+    </option>
+  </component>
+</project>
